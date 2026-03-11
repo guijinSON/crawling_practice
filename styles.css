@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background: #f4f6f8;
+  color: #1f2933;
+}
+
+.container {
+  width: min(980px, 92%);
+  margin: 0 auto;
+}
+
+header {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 24px 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 6px 0 0;
+  color: #cbd5e1;
+}
+
+.meta {
+  margin: 16px 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #0b3d91;
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.pagination a.current {
+  background: #0b3d91;
+  border-color: #0b3d91;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.board {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.item {
+  background: #ffffff;
+  border: 1px solid #d7dee6;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.item h2 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.item p {
+  margin: 0;
+  color: #334155;
+}
+
+footer {
+  padding: 18px 0 28px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
